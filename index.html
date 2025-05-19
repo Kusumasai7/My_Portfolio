@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+     <header class="site-header">
+        <div class="container header-inner">
+          <div class="logo">
+            <strong  style="color: rgb(231, 218, 218);">My</strong>Portfolio
+          </div>
+          <nav class="nav-links">
+            <a href="#about-section">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+      </header>
+    
+      <section id="about-section" class="about-section">
+  <img src="kusuma.jpg" alt="Profile Photo" />
+  <div class="intro">
+    <h1>Kusuma Sai</h1>
+    <p>I am a passionate and results-driven Full Stack Developer with a solid foundation in front-end and back-end technologies. I have hands-on experience developing responsive web applications, and I enjoy building scalable, user-friendly solutions. With a strong academic background and practical experience from internships and personal projects, I’m constantly learning and pushing the boundaries of web development.</p>
+  </div>
+</section>
+
+
+    <section id="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-list">
+  <div class="skill" data-progress="90">
+    <div class="skill-name">HTML</div>
+    <div class="progress-bar">
+      <div class="progress-bar-inner"></div>
+    </div>
+  </div>
+
+  <div class="skill" data-progress="85">
+    <div class="skill-name">CSS</div>
+    <div class="progress-bar">
+      <div class="progress-bar-inner"></div>
+    </div>
+  </div>
+
+  <div class="skill" data-progress="80">
+    <div class="skill-name">JavaScript</div>
+    <div class="progress-bar">
+      <div class="progress-bar-inner"></div>
+    </div>
+  </div>
+
+  <div class="skill" data-progress="75">
+    <div class="skill-name">React</div>
+    <div class="progress-bar">
+      <div class="progress-bar-inner"></div>
+    </div>
+  </div>
+
+  <div class="skill" data-progress="70">
+    <div class="skill-name">Fundamentals of MUI</div>
+    <div class="progress-bar">
+      <div class="progress-bar-inner"></div>
+    </div>
+  </div>
+
+  <div class="skill" data-progress="80">
+    <div class="skill-name">Java</div>
+    <div class="progress-bar">
+      <div class="progress-bar-inner"></div>
+    </div>
+  </div>
+
+  <div class="skill" data-progress="85">
+    <div class="skill-name">Python</div>
+    <div class="progress-bar">
+      <div class="progress-bar-inner"></div>
+    </div>
+  </div>
+
+  <div class="skill" data-progress="75">
+    <div class="skill-name">SQL</div>
+    <div class="progress-bar">
+      <div class="progress-bar-inner"></div>
+    </div>
+  </div>
+</div>
+    </section>
+
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Fashion World</h3>
+          <p>A responsive website built with Html, Css and Java Script.</p>
+          <p><strong>Technologies:</strong> Html, Css and Java Script</p>
+          <br>
+          <a href="https://github.com/Kusumasai7/Fashion_World" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project-card">
+          <h3>BMI Calculator</h3>
+          <p>A responsive website built with Html, Css and Java Script.</p>
+          <p><strong>Technologies:</strong> Html, Css and Java Script</p>
+          <br>
+          <a href="https://github.com/Kusumasai7/BMI_Calculator/tree/main" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project-card">
+          <h3>Weather App</h3>
+          <p>A weather app with real-time weather monitoring.</p>
+          <p><strong>Technologies:</strong> Html, Css and Java Script</p>
+          <br>
+          <a href="https://github.com/Kusumasai7/Weather_App/tree/main" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+      <form class="contact-form" id="contactForm" onsubmit="return false;">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div id="form-message"></div>
+      
+      <div class="social-links">
+        <a href="mailto:kusumasaithummuri@example.com" aria-label="Email">✉️ Email</a>
+        <a href="https://www.linkedin.com/in/kusumasai-thummuri-a51209253" target="_blank" aria-label="LinkedIn">🔗 LinkedIn</a>
+        <a href="https://github.com/Kusumasai7" target="_blank" aria-label="GitHub">🐙 GitHub</a>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
